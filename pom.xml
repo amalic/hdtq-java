@@ -74,9 +74,11 @@
         <module>hdt-api</module>
         <module>hdt-java-core</module>
         <module>hdt-java-cli</module>
-        <module>hdt-jena</module>
         <module>hdt-java-package</module>
+		<!-- 
+		<module>hdt-jena</module>
         <module>hdt-fuseki</module>
+		-->
       </modules>
     </profile>
   </profiles>
