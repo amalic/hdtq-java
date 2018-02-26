@@ -33,6 +33,16 @@
 			<groupId>eu.wdaqua</groupId>
 			<artifactId>hdt-jena</artifactId>
 			<version>2.0</version>
+			<exclusions>
+				<exclusion>
+					<groupId>eu.wdaqua</groupId>
+					<artifactId>hdt-java-core</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>eu.wdaqua</groupId>
+					<artifactId>hdt-api</artifactId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 	</dependencies>
 
