@@ -102,8 +102,8 @@ public class RDF2HDT implements ProgressListener {
 			try {
 				notation =  RDFNotation.guess(rdfInput);
 			} catch (IllegalArgumentException e) {
-				System.out.println("Could not guess notation for "+rdfInput+" Trying NTriples");
-				notation = RDFNotation.NTRIPLES;
+				System.out.println("Could not guess notation for "+rdfInput+" Trying NQuads");
+				notation = RDFNotation.NQUADS;
 			}
 		}
 		
