@@ -27,6 +27,9 @@ You can also run mvn assembly:single under hdt-java-package to generate a distri
 Examples on how to use this library are provided in the org.rdfhdt.hdt.example package of the hdt-java-core module (in src/main/java).
 To test the functionality, one can execute the JUnit tests in org.rdfhdt.hdt.graphs package of the hdt-java-core module (in src/test/java).
 
+## Docker
+docker run -it --name rdfhdtq --rm -v /data/hdqt-java/:/data/ hdtq-java rdf2hdt.sh -base "http://bio2rdf.org/" /data/bio2rdf.nq.gz /data/bio2rdf.hdt
+
 
 ## License
 
